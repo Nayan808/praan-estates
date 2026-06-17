@@ -1,0 +1,218 @@
+city,state,aqi,category
+Delhi,Delhi,218,Very Unhealthy
+New Delhi,Delhi,215,Very Unhealthy
+Gurugram,Haryana,198,Unhealthy
+Faridabad,Haryana,203,Very Unhealthy
+Ghaziabad,Uttar Pradesh,225,Very Unhealthy
+Noida,Uttar Pradesh,212,Very Unhealthy
+Lucknow,Uttar Pradesh,178,Unhealthy
+Kanpur,Uttar Pradesh,182,Unhealthy
+Varanasi,Uttar Pradesh,168,Unhealthy
+Agra,Uttar Pradesh,172,Unhealthy
+Meerut,Uttar Pradesh,192,Unhealthy
+Allahabad,Uttar Pradesh,165,Unhealthy
+Gorakhpur,Uttar Pradesh,158,Unhealthy
+Moradabad,Uttar Pradesh,178,Unhealthy
+Bareilly,Uttar Pradesh,162,Unhealthy
+Aligarh,Uttar Pradesh,170,Unhealthy
+Mathura,Uttar Pradesh,158,Unhealthy
+Muzaffarnagar,Uttar Pradesh,175,Unhealthy
+Saharanpur,Uttar Pradesh,168,Unhealthy
+Jhansi,Uttar Pradesh,145,Unhealthy for Sensitive Groups
+Patna,Bihar,188,Unhealthy
+Muzaffarpur,Bihar,192,Unhealthy
+Gaya,Bihar,168,Unhealthy
+Bhagalpur,Bihar,158,Unhealthy
+Darbhanga,Bihar,172,Unhealthy
+Purnia,Bihar,155,Unhealthy
+Hisar,Haryana,182,Unhealthy
+Rohtak,Haryana,172,Unhealthy
+Sonipat,Haryana,188,Unhealthy
+Panipat,Haryana,168,Unhealthy
+Karnal,Haryana,158,Unhealthy
+Ambala,Haryana,142,Unhealthy for Sensitive Groups
+Bhiwani,Haryana,165,Unhealthy
+Yamunanagar,Haryana,155,Unhealthy
+Jaipur,Rajasthan,152,Unhealthy for Sensitive Groups
+Jodhpur,Rajasthan,122,Unhealthy for Sensitive Groups
+Kota,Rajasthan,142,Unhealthy for Sensitive Groups
+Udaipur,Rajasthan,98,Moderate
+Ajmer,Rajasthan,112,Unhealthy for Sensitive Groups
+Bikaner,Rajasthan,132,Unhealthy for Sensitive Groups
+Alwar,Rajasthan,162,Unhealthy
+Bharatpur,Rajasthan,148,Unhealthy for Sensitive Groups
+Pali,Rajasthan,118,Unhealthy for Sensitive Groups
+Sikar,Rajasthan,135,Unhealthy for Sensitive Groups
+Ludhiana,Punjab,158,Unhealthy
+Amritsar,Punjab,148,Unhealthy for Sensitive Groups
+Jalandhar,Punjab,142,Unhealthy for Sensitive Groups
+Patiala,Punjab,132,Unhealthy for Sensitive Groups
+Bathinda,Punjab,128,Unhealthy for Sensitive Groups
+Mohali,Punjab,118,Unhealthy for Sensitive Groups
+Pathankot,Punjab,105,Unhealthy for Sensitive Groups
+Chandigarh,Chandigarh,102,Unhealthy for Sensitive Groups
+Shimla,Himachal Pradesh,45,Good
+Manali,Himachal Pradesh,28,Good
+Dharamsala,Himachal Pradesh,38,Good
+Solan,Himachal Pradesh,52,Moderate
+Mandi,Himachal Pradesh,48,Good
+Kullu,Himachal Pradesh,32,Good
+Bilaspur,Himachal Pradesh,55,Moderate
+Dehradun,Uttarakhand,82,Moderate
+Haridwar,Uttarakhand,112,Unhealthy for Sensitive Groups
+Rishikesh,Uttarakhand,72,Moderate
+Nainital,Uttarakhand,42,Good
+Mussoorie,Uttarakhand,35,Good
+Roorkee,Uttarakhand,95,Moderate
+Haldwani,Uttarakhand,88,Moderate
+Raipur,Chhattisgarh,122,Unhealthy for Sensitive Groups
+Bilaspur,Chhattisgarh,112,Unhealthy for Sensitive Groups
+Bhilai,Chhattisgarh,132,Unhealthy for Sensitive Groups
+Durg,Chhattisgarh,128,Unhealthy for Sensitive Groups
+Korba,Chhattisgarh,148,Unhealthy for Sensitive Groups
+Jagdalpur,Chhattisgarh,72,Moderate
+Ambikapur,Chhattisgarh,65,Moderate
+Bhopal,Madhya Pradesh,122,Unhealthy for Sensitive Groups
+Indore,Madhya Pradesh,132,Unhealthy for Sensitive Groups
+Jabalpur,Madhya Pradesh,118,Unhealthy for Sensitive Groups
+Gwalior,Madhya Pradesh,158,Unhealthy
+Ujjain,Madhya Pradesh,128,Unhealthy for Sensitive Groups
+Satna,Madhya Pradesh,112,Unhealthy for Sensitive Groups
+Rewa,Madhya Pradesh,108,Unhealthy for Sensitive Groups
+Sagar,Madhya Pradesh,102,Unhealthy for Sensitive Groups
+Ratlam,Madhya Pradesh,118,Unhealthy for Sensitive Groups
+Dewas,Madhya Pradesh,125,Unhealthy for Sensitive Groups
+Singrauli,Madhya Pradesh,155,Unhealthy
+Renipani,Madhya Pradesh,0,Good
+Madhai,Madhya Pradesh,0,Good
+Satpura,Madhya Pradesh,0,Good
+Pachmarhi,Madhya Pradesh,18,Good
+Mumbai,Maharashtra,148,Unhealthy for Sensitive Groups
+Pune,Maharashtra,112,Unhealthy for Sensitive Groups
+Nagpur,Maharashtra,128,Unhealthy for Sensitive Groups
+Nashik,Maharashtra,108,Unhealthy for Sensitive Groups
+Aurangabad,Maharashtra,118,Unhealthy for Sensitive Groups
+Solapur,Maharashtra,102,Unhealthy for Sensitive Groups
+Kolhapur,Maharashtra,88,Moderate
+Thane,Maharashtra,142,Unhealthy for Sensitive Groups
+Navi Mumbai,Maharashtra,138,Unhealthy for Sensitive Groups
+Amravati,Maharashtra,115,Unhealthy for Sensitive Groups
+Akola,Maharashtra,108,Unhealthy for Sensitive Groups
+Latur,Maharashtra,95,Moderate
+Nanded,Maharashtra,92,Moderate
+Pimpri,Maharashtra,118,Unhealthy for Sensitive Groups
+Ahmedabad,Gujarat,142,Unhealthy for Sensitive Groups
+Surat,Gujarat,132,Unhealthy for Sensitive Groups
+Vadodara,Gujarat,128,Unhealthy for Sensitive Groups
+Rajkot,Gujarat,122,Unhealthy for Sensitive Groups
+Gandhinagar,Gujarat,118,Unhealthy for Sensitive Groups
+Bhavnagar,Gujarat,108,Unhealthy for Sensitive Groups
+Jamnagar,Gujarat,102,Unhealthy for Sensitive Groups
+Junagadh,Gujarat,98,Moderate
+Anand,Gujarat,115,Unhealthy for Sensitive Groups
+Bharuch,Gujarat,125,Unhealthy for Sensitive Groups
+Vapi,Gujarat,138,Unhealthy for Sensitive Groups
+Bengaluru,Karnataka,112,Unhealthy for Sensitive Groups
+Mysuru,Karnataka,78,Moderate
+Hubli,Karnataka,98,Moderate
+Dharwad,Karnataka,92,Moderate
+Mangaluru,Karnataka,68,Moderate
+Belagavi,Karnataka,88,Moderate
+Davangere,Karnataka,92,Moderate
+Ballari,Karnataka,102,Unhealthy for Sensitive Groups
+Kalaburagi,Karnataka,98,Moderate
+Shivamogga,Karnataka,82,Moderate
+Tumkur,Karnataka,88,Moderate
+Chennai,Tamil Nadu,122,Unhealthy for Sensitive Groups
+Coimbatore,Tamil Nadu,92,Moderate
+Madurai,Tamil Nadu,102,Unhealthy for Sensitive Groups
+Salem,Tamil Nadu,88,Moderate
+Tiruchirappalli,Tamil Nadu,98,Moderate
+Tirunelveli,Tamil Nadu,82,Moderate
+Vellore,Tamil Nadu,92,Moderate
+Erode,Tamil Nadu,88,Moderate
+Tiruppur,Tamil Nadu,85,Moderate
+Thoothukudi,Tamil Nadu,78,Moderate
+Hyderabad,Telangana,118,Unhealthy for Sensitive Groups
+Warangal,Telangana,108,Unhealthy for Sensitive Groups
+Nizamabad,Telangana,98,Moderate
+Karimnagar,Telangana,102,Unhealthy for Sensitive Groups
+Khammam,Telangana,92,Moderate
+Secunderabad,Telangana,115,Unhealthy for Sensitive Groups
+Visakhapatnam,Andhra Pradesh,92,Moderate
+Vijayawada,Andhra Pradesh,108,Unhealthy for Sensitive Groups
+Guntur,Andhra Pradesh,102,Unhealthy for Sensitive Groups
+Nellore,Andhra Pradesh,92,Moderate
+Kurnool,Andhra Pradesh,98,Moderate
+Tirupati,Andhra Pradesh,82,Moderate
+Rajahmundry,Andhra Pradesh,88,Moderate
+Kakinada,Andhra Pradesh,85,Moderate
+Anantapur,Andhra Pradesh,90,Moderate
+Thiruvananthapuram,Kerala,62,Moderate
+Kochi,Kerala,72,Moderate
+Kozhikode,Kerala,58,Moderate
+Thrissur,Kerala,68,Moderate
+Kollam,Kerala,62,Moderate
+Kannur,Kerala,52,Moderate
+Alappuzha,Kerala,55,Moderate
+Palakkad,Kerala,65,Moderate
+Malappuram,Kerala,58,Moderate
+Kolkata,West Bengal,158,Unhealthy
+Howrah,West Bengal,162,Unhealthy
+Durgapur,West Bengal,148,Unhealthy for Sensitive Groups
+Asansol,West Bengal,142,Unhealthy for Sensitive Groups
+Siliguri,West Bengal,78,Moderate
+Darjeeling,West Bengal,38,Good
+Kharagpur,West Bengal,118,Unhealthy for Sensitive Groups
+Burdwan,West Bengal,132,Unhealthy for Sensitive Groups
+Haldia,West Bengal,145,Unhealthy for Sensitive Groups
+Ranchi,Jharkhand,98,Moderate
+Jamshedpur,Jharkhand,132,Unhealthy for Sensitive Groups
+Dhanbad,Jharkhand,158,Unhealthy
+Bokaro,Jharkhand,148,Unhealthy for Sensitive Groups
+Hazaribagh,Jharkhand,92,Moderate
+Deoghar,Jharkhand,88,Moderate
+Bhubaneswar,Odisha,88,Moderate
+Cuttack,Odisha,92,Moderate
+Rourkela,Odisha,112,Unhealthy for Sensitive Groups
+Sambalpur,Odisha,98,Moderate
+Puri,Odisha,72,Moderate
+Berhampur,Odisha,85,Moderate
+Guwahati,Assam,82,Moderate
+Silchar,Assam,68,Moderate
+Dibrugarh,Assam,72,Moderate
+Jorhat,Assam,62,Moderate
+Nagaon,Assam,70,Moderate
+Tezpur,Assam,58,Moderate
+Shillong,Meghalaya,38,Good
+Tura,Meghalaya,32,Good
+Kohima,Nagaland,28,Good
+Dimapur,Nagaland,45,Good
+Imphal,Manipur,48,Good
+Aizawl,Mizoram,25,Good
+Agartala,Tripura,62,Moderate
+Itanagar,Arunachal Pradesh,32,Good
+Gangtok,Sikkim,25,Good
+Srinagar,Jammu & Kashmir,68,Moderate
+Jammu,Jammu & Kashmir,122,Unhealthy for Sensitive Groups
+Leh,Ladakh,30,Good
+Kargil,Ladakh,25,Good
+Panaji,Goa,52,Moderate
+Margao,Goa,55,Moderate
+Vasco da Gama,Goa,58,Moderate
+Mapusa,Goa,50,Moderate
+Port Blair,Andaman & Nicobar,28,Good
+Kavaratti,Lakshadweep,20,Good
+Silvassa,Dadra & Nagar Haveli,92,Moderate
+Daman,Daman & Diu,88,Moderate
+Diu,Daman & Diu,72,Moderate
+Puducherry,Puducherry,82,Moderate
+Karaikal,Puducherry,78,Moderate
+Raigarh,Chhattisgarh,138,Unhealthy for Sensitive Groups
+Rajnandgaon,Chhattisgarh,118,Unhealthy for Sensitive Groups
+Firozabad,Uttar Pradesh,185,Unhealthy
+Rampur,Uttar Pradesh,162,Unhealthy
+Shahjahanpur,Uttar Pradesh,155,Unhealthy
+Bulandshahr,Uttar Pradesh,178,Unhealthy
+Hapur,Uttar Pradesh,192,Unhealthy
+Greater Noida,Uttar Pradesh,215,Very Unhealthy
