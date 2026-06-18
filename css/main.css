@@ -87,10 +87,27 @@
   color: white;
   transition: color 0.4s;
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
 }
+
+.nav-logo-img {
+  height: 38px;
+  width: auto;
+  filter: brightness(0) invert(1);
+  opacity: 0.92;
+  transition: opacity 0.3s;
+}
+
+.nav-logo:hover .nav-logo-img { opacity: 1; }
 
 .navbar.scrolled .nav-logo {
   color: var(--text-on-dark);
+}
+
+.navbar.scrolled .nav-logo-img {
+  filter: brightness(0) invert(1);
+  opacity: 1;
 }
 
 .nav-links {
@@ -520,9 +537,22 @@
 
 /* ===== BRAND STATEMENT ===== */
 .brand-section {
-  background: var(--ivory);
+  position: relative;
   padding: 120px 0;
   text-align: center;
+  background-image: url('https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1400&q=72&fit=crop&auto=format&fm=webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  isolation: isolate;
+}
+
+.brand-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(245, 240, 230, 0.90);
+  z-index: -1;
 }
 
 .brand-content {
@@ -789,8 +819,21 @@
 
 /* ===== REVIEWS ===== */
 .reviews-section {
-  background: var(--ivory);
+  position: relative;
   padding: 100px 0;
+  background-image: url('https://images.unsplash.com/photo-1510798831971-661eb04b3739?w=1400&q=72&fit=crop&auto=format&fm=webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  isolation: isolate;
+}
+
+.reviews-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(245, 240, 230, 0.92);
+  z-index: -1;
 }
 
 .reviews-quote {
@@ -1434,6 +1477,8 @@
   }
 
   .stats-section,
+  .brand-section,
+  .reviews-section,
   .contact-section {
     background-attachment: scroll;
   }
