@@ -1,5 +1,78 @@
 /* ===== PROJECT PAGE STYLES ===== */
 
+/* ── Global white text for parallax sections ── */
+.project-summary, .story-section, .villas-section,
+.layout-section, .location-section, .why-section {
+  color: white;
+}
+
+.project-summary h1, .project-summary h2, .project-summary h3,
+.project-summary p, .project-summary span { color: white; }
+
+.story-section h1, .story-section h2, .story-section h3, .story-section p,
+.villas-section h1, .villas-section h2, .villas-section h3, .villas-section p,
+.layout-section h1, .layout-section h2, .layout-section h3, .layout-section p,
+.location-section h1, .location-section h2, .location-section h3, .location-section p,
+.why-section h1, .why-section h2, .why-section h3, .why-section p,
+.why-section div, .why-section span {
+  color: white;
+  text-shadow: 0 1px 12px rgba(0,0,0,0.55);
+}
+
+.project-summary .eyebrow, .story-section .eyebrow,
+.villas-section .eyebrow, .layout-section .eyebrow,
+.location-section .eyebrow, .why-section .eyebrow {
+  color: var(--moss);
+  text-shadow: 0 1px 8px rgba(0,0,0,0.6);
+}
+
+.project-summary .summary-cell,
+.project-summary .summary-callout {
+  background: rgba(6, 12, 6, 0.45);
+  border-color: rgba(255,255,255,0.15);
+}
+
+.villas-section .villa-card,
+.villas-section .villa-tab {
+  background: rgba(6, 12, 6, 0.50);
+  border-color: rgba(255,255,255,0.15);
+  color: white;
+}
+
+.location-section .location-detail,
+.location-section .location-stat {
+  background: rgba(6, 12, 6, 0.45);
+  border-color: rgba(255,255,255,0.15);
+}
+
+.why-section {
+  position: relative;
+  padding: 100px 0;
+  background-image: url('https://images.unsplash.com/photo-1440342359743-84fcb8c21f21?w=1400&q=72&fit=crop&auto=format&fm=webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.why-section::before {
+  content: ''; position: absolute; inset: 0;
+  background: rgba(6, 12, 6, 0.48); z-index: 0;
+}
+.why-section > .container { position: relative; z-index: 1; }
+
+.why-section h2, .why-section h3,
+.why-section p, .why-section div, .why-section span {
+  color: white !important;
+  border-color: rgba(255,255,255,0.15) !important;
+}
+.why-section .eyebrow { color: var(--moss) !important; }
+.why-section [style*="background:var(--ivory)"] {
+  background: rgba(6,12,6,0.45) !important;
+}
+
+@media (max-width: 768px) {
+  .why-section { background-attachment: scroll; }
+}
+
 /* Breadcrumb */
 .breadcrumb {
   position: fixed;
@@ -106,10 +179,20 @@ body.scrolled .breadcrumb-inner {
 
 /* PROJECT SUMMARY TABLE */
 .project-summary {
-  background: var(--ivory);
+  position: relative;
   padding: 80px 0;
-  border-bottom: 1px solid var(--border-light);
+  background-image: url('https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?w=1400&q=72&fit=crop&auto=format&fm=webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
+.project-summary::before {
+  content: ''; position: absolute; inset: 0;
+  background: rgba(6, 12, 6, 0.78); z-index: 0;
+}
+.project-summary > .container { position: relative; z-index: 1; }
+
+@media (max-width: 768px) { .project-summary { background-attachment: scroll; } }
 
 .summary-table {
   display: grid;
@@ -178,9 +261,27 @@ body.scrolled .breadcrumb-inner {
 
 /* STORY SECTION */
 .story-section {
-  background: var(--ivory-dark);
+  position: relative;
   padding: 120px 0;
+  background-image: url('https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=1400&q=72&fit=crop&auto=format&fm=webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
+.story-section::before {
+  content: ''; position: absolute; inset: 0;
+  background: rgba(6, 12, 6, 0.68); z-index: 0;
+}
+.story-section > .container { position: relative; z-index: 1; }
+
+.story-section h1, .story-section h2, .story-section h3,
+.story-section p, .story-section span, .story-section div {
+  color: white !important;
+  text-shadow: 0 1px 10px rgba(0,0,0,0.6);
+}
+.story-section .eyebrow { color: var(--moss) !important; }
+
+@media (max-width: 768px) { .story-section { background-attachment: scroll; } }
 
 .story-grid {
   display: grid;
@@ -241,9 +342,20 @@ body.scrolled .breadcrumb-inner {
 
 /* VILLAS SECTION */
 .villas-section {
-  background: var(--ivory);
+  position: relative;
   padding: 120px 0;
+  background-image: url('https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?w=1400&q=72&fit=crop&auto=format&fm=webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
+.villas-section::before {
+  content: ''; position: absolute; inset: 0;
+  background: rgba(6, 12, 6, 0.48); z-index: 0;
+}
+.villas-section > .container { position: relative; z-index: 1; }
+
+@media (max-width: 768px) { .villas-section { background-attachment: scroll; } }
 
 .villas-header {
   margin-bottom: 60px;
@@ -387,26 +499,25 @@ body.scrolled .breadcrumb-inner {
 .life-section {
   position: relative;
   padding: 120px 0;
-  background-image: url('https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=1400&q=72&fit=crop&auto=format&fm=webp');
+  background-image: url('https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1400&q=72&fit=crop&auto=format&fm=webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  isolation: isolate;
 }
 
 .life-section::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(6, 12, 6, 0.68);
-  z-index: -1;
+  background: rgba(6, 12, 6, 0.65);
+  z-index: 0;
 }
 
 .life-bg { display: none; }
 
 .life-content {
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 @media (max-width: 768px) {
@@ -467,20 +578,21 @@ body.scrolled .breadcrumb-inner {
 .investment-section {
   position: relative;
   padding: 120px 0;
-  background-image: url('https://images.unsplash.com/photo-1448375240586-882707db888b?w=1400&q=72&fit=crop&auto=format&fm=webp');
+  background-image: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1400&q=72&fit=crop&auto=format&fm=webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  isolation: isolate;
 }
 
 .investment-section::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(6, 12, 6, 0.75);
-  z-index: -1;
+  background: rgba(6, 12, 6, 0.72);
+  z-index: 0;
 }
+
+.investment-section > .container { position: relative; z-index: 1; }
 
 @media (max-width: 768px) {
   .investment-section { background-attachment: scroll; }
@@ -641,9 +753,20 @@ body.scrolled .breadcrumb-inner {
 
 /* LAYOUT PLAN */
 .layout-section {
-  background: var(--ivory);
+  position: relative;
   padding: 120px 0;
+  background-image: url('https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1400&q=72&fit=crop&auto=format&fm=webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
+.layout-section::before {
+  content: ''; position: absolute; inset: 0;
+  background: rgba(6, 12, 6, 0.48); z-index: 0;
+}
+.layout-section > .container { position: relative; z-index: 1; }
+
+@media (max-width: 768px) { .layout-section { background-attachment: scroll; } }
 
 .layout-plan-img-wrap {
   position: relative;
@@ -715,33 +838,54 @@ body.scrolled .breadcrumb-inner {
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.55);
   padding: 12px 16px;
   text-align: left;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 
 .plot-table td {
   padding: 12px 16px;
   font-size: 14px;
-  color: var(--text-secondary);
-  border-bottom: 1px solid rgba(216,210,196,0.5);
+  color: rgba(255,255,255,0.85);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
 .plot-table td:first-child,
 .plot-table td:nth-child(2) {
   font-family: var(--font-mono);
-  color: var(--text-primary);
+  color: white;
 }
 
-.plot-status-resort { color: var(--text-muted); }
-.plot-status-available { color: var(--canopy); font-weight: 400; }
+.plot-status-resort { color: rgba(255,255,255,0.45); }
+.plot-status-available { color: var(--moss); font-weight: 400; }
 
 /* LOCATION */
 .location-section {
-  background: var(--ivory-dark);
+  position: relative;
   padding: 120px 0;
+  background-image: url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1400&q=72&fit=crop&auto=format&fm=webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
+.location-section::before {
+  content: ''; position: absolute; inset: 0;
+  background: rgba(6, 12, 6, 0.62); z-index: 0;
+}
+.location-section > .container,
+.location-section > .location-grid { position: relative; z-index: 1; }
+
+.location-section h1, .location-section h2, .location-section h3,
+.location-section p, .location-section span, .location-section div,
+.location-section td, .location-section th, .location-section strong {
+  color: white !important;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.5);
+}
+.location-section .eyebrow { color: var(--moss) !important; }
+.location-section .location-gps { color: rgba(255,255,255,0.6) !important; }
+
+@media (max-width: 768px) { .location-section { background-attachment: scroll; } }
 
 .location-grid {
   display: grid;
@@ -763,13 +907,13 @@ body.scrolled .breadcrumb-inner {
 
 .location-info {
   padding: 48px;
-  background: var(--ivory);
+  background: transparent;
 }
 
 .location-gps {
   font-family: var(--font-mono);
   font-size: 13px;
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.6);
   letter-spacing: 0.05em;
   margin-top: 8px;
   margin-bottom: 32px;
@@ -788,25 +932,25 @@ body.scrolled .breadcrumb-inner {
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.5);
   padding: 8px 0;
   text-align: left;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid rgba(255,255,255,0.15);
   font-family: var(--font-body);
 }
 
 .distance-table td {
   padding: 10px 0;
   font-size: 13px;
-  color: var(--text-secondary);
-  border-bottom: 1px solid rgba(216,210,196,0.4);
+  color: rgba(255,255,255,0.85);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
 .distance-table td:nth-child(2),
 .distance-table td:nth-child(3) {
   font-family: var(--font-mono);
   font-size: 12px;
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.6);
 }
 
 .benchmark-heading {
@@ -814,7 +958,7 @@ body.scrolled .breadcrumb-inner {
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.5);
   margin-bottom: 16px;
   font-family: var(--font-body);
 }
@@ -827,15 +971,15 @@ body.scrolled .breadcrumb-inner {
 .benchmark-table td {
   padding: 8px 0;
   font-size: 12px;
-  color: var(--text-secondary);
-  border-bottom: 1px solid rgba(216,210,196,0.3);
+  color: rgba(255,255,255,0.85);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
   vertical-align: top;
 }
 
 .benchmark-table td:last-child {
   font-family: var(--font-mono);
   font-size: 11px;
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.6);
   text-align: right;
 }
 
@@ -843,11 +987,10 @@ body.scrolled .breadcrumb-inner {
 .project-enquire-section {
   position: relative;
   padding: 120px 0;
-  background-image: url('https://images.unsplash.com/photo-1448375240586-882707db888b?w=1400&q=72&fit=crop&auto=format&fm=webp');
+  background-image: url('https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1400&q=72&fit=crop&auto=format&fm=webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  isolation: isolate;
 }
 
 .project-enquire-section::before {
@@ -855,8 +998,10 @@ body.scrolled .breadcrumb-inner {
   position: absolute;
   inset: 0;
   background: rgba(6, 12, 6, 0.72);
-  z-index: -1;
+  z-index: 0;
 }
+
+.project-enquire-section > .container { position: relative; z-index: 1; }
 
 @media (max-width: 768px) {
   .project-enquire-section {

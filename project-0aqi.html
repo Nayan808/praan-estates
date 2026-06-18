@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/hero.css">
   <link rel="stylesheet" href="css/project.css">
+  <link rel="stylesheet" href="css/aqi.css">
 </head>
 <body>
 
@@ -27,7 +28,9 @@
 
 <!-- ===== NAVBAR ===== -->
 <nav class="navbar" role="navigation" aria-label="Main navigation">
-  <a href="index.html" class="nav-logo">Praan Estates</a>
+  <a href="index.html" class="nav-logo" aria-label="Praan Estates">
+    <img src="assets/images/Praan_Estates_Logo-removebg-preview.png" alt="Praan Estates" class="nav-logo-img">
+  </a>
 
   <ul class="nav-links">
     <li><a href="index.html">Home</a></li>
@@ -40,7 +43,6 @@
     </li>
     <li><a href="index.html#about">About</a></li>
     <li><a href="#enquire">Contact</a></li>
-    <li><a href="privacy-policy.html">Privacy</a></li>
   </ul>
 
   <div class="nav-right">
@@ -62,7 +64,6 @@
   <a href="index.html#projects">Projects</a>
   <a href="index.html#about">About</a>
   <a href="#enquire">Contact</a>
-  <a href="privacy-policy.html">Privacy</a>
   <div class="mobile-menu-footer">
     <a href="tel:+917869888888" class="nav-call-btn" style="margin-bottom:12px" aria-label="Call us">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .99h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
@@ -95,6 +96,37 @@
         <a href="#enquire" class="btn-primary">Enquire Now →</a>
         <a href="brochure.pdf" download="Praan-Estates-0AQI-Brochure.pdf" class="btn-secondary">Download Brochure ↓</a>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== AQI CHECKER ===== -->
+<section class="aqi-section" aria-label="Check Your City AQI">
+  <div class="container">
+    <div class="aqi-section-inner">
+      <div class="aqi-header reveal">
+        <span class="eyebrow eyebrow-dark">Air Quality</span>
+        <h2 class="section-heading light">Check your city's AQI.</h2>
+        <p style="color:var(--text-on-dark-2);font-size:15px;margin-top:12px;line-height:1.7">See how it compares to Satpura — where the AQI is 0.</p>
+      </div>
+
+      <div class="aqi-search-wrap">
+        <input class="aqi-input" type="text" placeholder="Enter your city — e.g. Delhi, Mumbai, Bhopal" autocomplete="off">
+        <button class="aqi-search-btn" aria-label="Search AQI">
+          <svg viewBox="0 0 24 24" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="22" y2="22"/></svg>
+        </button>
+      </div>
+
+      <div class="aqi-city-chips">
+        <button class="aqi-city-chip" data-city="Delhi">Delhi</button>
+        <button class="aqi-city-chip" data-city="Mumbai">Mumbai</button>
+        <button class="aqi-city-chip" data-city="Bengaluru">Bengaluru</button>
+        <button class="aqi-city-chip" data-city="Bhopal">Bhopal</button>
+        <button class="aqi-city-chip" data-city="Hyderabad">Hyderabad</button>
+        <button class="aqi-city-chip" data-city="Pune">Pune</button>
+      </div>
+
+      <div class="aqi-result" role="region" aria-live="polite"></div>
     </div>
   </div>
 </section>
@@ -339,7 +371,7 @@
 </section>
 
 <!-- ===== WHY THIS. WHY NOW. ===== -->
-<section style="background:var(--ivory-dark);padding:100px 0" aria-labelledby="why-heading">
+<section class="why-section" aria-labelledby="why-heading">
   <div class="container">
     <div class="reveal" style="margin-bottom:48px">
       <span class="eyebrow">The Investment Case</span>
@@ -859,6 +891,7 @@
 
 <script src="js/main.js"></script>
 <script src="js/scroll.js"></script>
+<script src="js/aqi.js"></script>
 <script>
 // Show breadcrumb after scrolling past hero
 (function () {
