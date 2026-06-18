@@ -540,7 +540,7 @@
   position: relative;
   padding: 120px 0;
   text-align: center;
-  background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1400&q=72&fit=crop&auto=format&fm=webp');
+  background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=60&fit=crop&auto=format&fm=webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -663,7 +663,7 @@
 .projects-section {
   position: relative;
   padding: 120px 0;
-  background-image: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1400&q=72&fit=crop&auto=format&fm=webp');
+  background-image: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&q=60&fit=crop&auto=format&fm=webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -806,7 +806,7 @@
 .nature-section {
   position: relative;
   padding: 120px 0;
-  background-image: url('https://images.unsplash.com/photo-1448375240586-882707db888b?w=1400&q=72&fit=crop&auto=format&fm=webp');
+  background-image: url('https://images.unsplash.com/photo-1448375240586-882707db888b?w=1200&q=60&fit=crop&auto=format&fm=webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -919,7 +919,7 @@
 .reviews-section {
   position: relative;
   padding: 64px 0;
-  background-image: url('https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=1400&q=72&fit=crop&auto=format&fm=webp');
+  background-image: url('https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=1200&q=60&fit=crop&auto=format&fm=webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -1059,7 +1059,7 @@
 .contact-section {
   position: relative;
   padding: 100px 0;
-  background-image: url('https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?w=1400&q=72&fit=crop&auto=format&fm=webp');
+  background-image: url('https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?w=1200&q=60&fit=crop&auto=format&fm=webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
