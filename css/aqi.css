@@ -6,16 +6,18 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  isolation: isolate;
 }
 
 .aqi-section::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(6, 12, 6, 0.50);
-  z-index: -1;
+  background: rgba(6, 12, 6, 0.55);
+  z-index: 0;
 }
+
+.aqi-section > .container,
+.aqi-section > * { position: relative; z-index: 1; }
 
 .aqi-section-inner {
   max-width: 660px;
