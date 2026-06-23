@@ -1157,3 +1157,45 @@ body.scrolled .breadcrumb-inner {
     padding: 32px var(--container-pad);
   }
 }
+
+/* ── New strategic sections: mobile responsive ── */
+@media (max-width: 768px) {
+  /* Tiger reserve stats grid */
+  [style*="grid-template-columns:repeat(4,1fr)"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  /* 3-col grids → 1 col */
+  [style*="grid-template-columns:repeat(3,1fr)"],
+  [style*="grid-template-columns:1fr 1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+  }
+  /* 2-col grids → 1 col */
+  [style*="grid-template-columns:1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+    gap: 0 !important;
+  }
+  /* Tiger reserve banner side strip */
+  [style*="grid-template-columns:1fr auto 1fr"] {
+    grid-template-columns: 1fr !important;
+  }
+  [style*="grid-template-columns:1fr auto 1fr"] > [style*="width:1px"] {
+    display: none;
+  }
+  [style*="grid-template-columns:1fr auto 1fr"] > div:last-child {
+    justify-content: flex-start !important;
+  }
+  /* Tribal trail grid */
+  [style*="grid-template-columns:1fr 1fr;gap:80px"] {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+  /* Calendar grid */
+  [style*="grid-template-columns:repeat(2,1fr);gap:2px"] {
+    grid-template-columns: 1fr !important;
+  }
+  /* Arrival cards */
+  [style*="grid-template-columns:1fr 1fr;gap:80px;align-items"] {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+}
